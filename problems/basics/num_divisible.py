@@ -8,7 +8,11 @@ def num_divisible(lb, ub, p, q):
     # Replace the following line with your code.
     # After running your code, variable n should contain the value
     # we ask you to compute in this exercise.
-    n = None
+    elignums = []
+    for num in range(lb, ub + 1):
+        if (num % p == 0)^(num % q == 0):
+            elignums.append(num)
+    return len(elignums)
 
     ### DO NOT MODIFY THE FOLLOWING LINE!
     return 

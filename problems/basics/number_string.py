@@ -9,7 +9,12 @@ def number_string(x):
     # After running your code, variable s should contain the value
     # we ask you to compute in this exercise.
     s = None
-
+    if x > 0:
+        s = "POSITIVE"
+    elif x == 0:
+        s = "ZERO"
+    elif x < 0:
+        s = "NEGATIVE"    
     ### DO NOT MODIFY THE FOLLOWING LINE!
     return s
 

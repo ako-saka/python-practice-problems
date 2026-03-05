@@ -8,8 +8,9 @@ def peep(p, e):
     """
 
     ### Replace pass with your code
-    pass
-
+    peepnum = int(str(p) + str(e) + str(e) + str(p))
+    ppnum = int(str(p) + str(p))
+    return peepnum == ppnum**e
 
 #############################################################
 ###                                                       ###
